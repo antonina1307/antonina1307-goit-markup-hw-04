@@ -264,6 +264,51 @@ background: #F5F4FA;
   color: #757575;
   text-align: center;
 }
+.icons{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}  
+.icon-insta{
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+ 
+  color: #757575;
+  padding: 10px 10px;
+}
+.icon-insta:hover{
+background: #2196f3;
+}
+.icon-twitter {
+  width: 44px;
+  height: 44px;
+  color: #757575;
+  padding: 10px 10px;
+}
+.icon-twitter:hover {
+  background: #2196f3;
+}
+
+.icon-facebook {
+  width: 44px;
+  height: 44px;
+  color: #757575;
+  padding: 10px 10px;
+}
+.icon-facebook:hover {
+  background: #2196f3;
+}
+.icon-linkedin{
+  width: 44px;
+  height: 44px;
+  color: #757575;
+  padding: 10px 10px;
+}
+.icon-linkedin:hover {
+  background: #2196f3;
+}
+
 .link-bottom{
   list-style: none;
   
