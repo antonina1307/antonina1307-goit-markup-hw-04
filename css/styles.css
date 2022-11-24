@@ -102,6 +102,12 @@ a.link-page-mail {
   color: #757575;
   text-decoration: none;
 }
+.address-mail{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+ 
+}
 a.link-page-mail:hover {
   color: var(--accent-color)
 }
@@ -273,8 +279,7 @@ background: #F5F4FA;
   width: 44px;
   height: 44px;
   border-radius: 50%;
- 
-  color: #757575;
+ fill: currentColor;
   padding: 10px 10px;
 }
 .icon-insta:hover{
