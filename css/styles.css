@@ -99,22 +99,28 @@ a.link-page-mail {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: currentColor;
   text-decoration: none;
 }
+.address-list-item{
+  color: #757575;
+  fill: #757575;
+}
+.address-list-item:hover,
+.address-list-item:focus{
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
 .address-mail{
+  width: 16px;
+  height: 12px;
+  margin-right: 10px; 
+}
+.address-tel{
   width: 10px;
   height: 16px;
   margin-right: 10px;
- 
 }
-a.link-page-mail:hover {
-  color: var(--accent-color)
-}
-.link-page-tel:hover {
-  color: var(--accent-color)
-}
-
 .main-section {
   background: #2f303a;
   display: block; 
@@ -157,6 +163,20 @@ a.link-page-mail:hover {
   height: 50px;
   border: none;
 }
+.features-thumb{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#F5F4FA;
+  margin-bottom: 30px;
+  border-radius: 3px;
+  height: 120px; 
+}
+.icon-thumb{
+  width: 70px;
+  height: 70px;
+}
+
 
 .visually-hidden {
   position: absolute;
@@ -270,26 +290,47 @@ background: #F5F4FA;
   color: #757575;
   text-align: center;
 }
-.icons{
+.icons-list{
+  list-style: none;
   display: flex;
   justify-content: center;
   margin-top: 16px;
-}  
-.icon-insta{
+  margin-left: 10px;
+  margin-right: 10px;
+} 
+.icons-link{
+  display: block;
+  color:#AFB1B8;
+  border-radius: 50%;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
- fill: currentColor;
-  padding: 10px 10px;
+  padding: 12px;
 }
-.icon-insta:hover{
+.icons-link:hover,
+.icons-link:focus{
+  color: #fff;
+  background-color: var(--accent-color);
+}
+ .icon{
+  width: 20px;
+  height: 20px;
+ fill: currentColor;}
+  
+/* }
+.icon:hover,
+.icon:focus {
+ 
+} */
+/*
+.icon:hover{
 background: #2196f3;
 }
 .icon-twitter {
-  width: 44px;
+width: 44px;
   height: 44px;
-  color: #757575;
-  padding: 10px 10px;
+  border-radius: 50%;
+  fill: currentColor;
+  padding: 12px 12px;
 }
 .icon-twitter:hover {
   background: #2196f3;
@@ -297,27 +338,28 @@ background: #2196f3;
 
 .icon-facebook {
   width: 44px;
-  height: 44px;
-  color: #757575;
-  padding: 10px 10px;
+    height: 44px;
+    border-radius: 50%;
+    fill: currentColor;
+    padding: 12px 12px;
 }
 .icon-facebook:hover {
   background: #2196f3;
 }
 .icon-linkedin{
   width: 44px;
-  height: 44px;
-  color: #757575;
-  padding: 10px 10px;
+    height: 44px;
+    border-radius: 50%;
+    fill: currentColor;
+    padding: 12px 12px;
+    
 }
 .icon-linkedin:hover {
   background: #2196f3;
-}
+} */
 
 .link-bottom{
-  list-style: none;
-  
-  
+  list-style: none;  
 }
 .address-ftr{
   margin-top: 28px;
