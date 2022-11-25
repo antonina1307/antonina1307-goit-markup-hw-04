@@ -127,8 +127,18 @@ a.link-page-mail {
   text-align: center;
   
 }
-.main-section{
-  padding: 200px 0;
+
+.overlay{
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid black;
+  background-image:
+ 
+  url(../images/Img\ fon\ \(1\).jpg);
+  background-size: cover;
+  background-position: center;
 }
 .main-title { 
 
@@ -145,7 +155,7 @@ a.link-page-mail {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
-  
+  padding-top: 200px;
 }
 .main-button {
   font-size: 16px;
