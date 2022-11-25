@@ -133,12 +133,17 @@ a.link-page-mail {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  outline: 1px solid black;
   background-image:
+  linear-gradient(
+    to right,
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  ),
  
   url(../images/Img\ fon\ \(1\).jpg);
   background-size: cover;
   background-position: center;
+
 }
 .main-title { 
 
@@ -314,7 +319,7 @@ background: #F5F4FA;
 }
 .regular-customers{
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 
 .list-customers{
@@ -323,18 +328,26 @@ background: #F5F4FA;
   list-style: none; 
 }
 
+.link-customers{
+  display: block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  color: #AFB1B8;
+  padding: 16px 32px;
+}
+.link-customers:hover,
+.link-customers:focus {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
 .logo-customers{
   width: 106px;
   height: 60px;
-  border: 1px solid #AFB1B8;
-  fill: #AFB1B8;
+  fill: currentColor;
 }
 
-.logo-customers:hover,
-.logo-customers:focus{
-  fill: var(--accent-color);
-  border: 1px solid var(--accent-color);      
-}
+
 .list-item-customers:not(:last-child) {
   margin-right: 30px;
 }
